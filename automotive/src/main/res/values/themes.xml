@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.NoteApp_FireBase" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+</resources>

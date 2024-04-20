@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/border"
+    android:backgroundTint="@color/white"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/title_tv_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/content_tv_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:padding="3dp"
+        android:maxLines="2"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/timestamp_tv_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="timestamp"
+        android:textStyle="normal"
+        android:padding="3dp"
+        android:textSize="20sp"
+        android:gravity="right"/>
+
+</LinearLayout>
